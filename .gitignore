@@ -1,14 +1,27 @@
+# OSX
+#
+.DS_Store
+
+# node.js
+#
 node_modules/
-dist/
-.tmp/
-.sass-cache/
-bower_components/
-.idea/
 npm-debug.log
 debug/
-.DS_Store
-debug.log.vscode
+
+＃build
+#
+dist/
+
+#vscode
 .vscode/
+debug.log.vscode
+
+#webstorm
+.idea/
+
+
+
+
 
 # Logs
 logs

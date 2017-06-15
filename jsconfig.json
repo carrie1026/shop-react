@@ -1,0 +1,16 @@
+{
+    //See https://code.visualstudio.com/docs/languages/jsconfig
+    "compilerOptions": {
+        "target": "es6",
+        "module": "es6",
+        "jsx" :"react",
+        "experimentalDecorators" : true,
+        "emitDecoratorMetadata": true,
+        "allowSyntheticDefaultImports" : true,
+        "allowUnreachableCode": true
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}

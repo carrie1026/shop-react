@@ -1,0 +1,31 @@
+{
+  "env": {
+    "browser": true,
+    "mocha": true,
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "react/jsx-uses-react": 1,
+    "react/jsx-no-undef": 2,
+    "react/jsx-wrap-multilines": 1,
+    "react/display-name" : 0,
+    "no-case-declarations" : 0,
+    "no-unused-vars" : 1,
+    "react/prop-types" : 1,
+    "no-console" : 1,
+    "no-debugger" : 1
+  },
+  "plugins": [
+    "react"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "globals": {
+    "Promise" : true,
+    "fetch" : true,
+    "Map" : true
+  }
+}

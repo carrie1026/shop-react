@@ -17,8 +17,8 @@ injectTapEventPlugin();
 
 const initialState = window.__initialState__ || {};
 
-const store = configureStore(initialState);
-const history = syncHistoryWithStore(hashHistory, store)
+// const store = configureStore(initialState);
+// const history = syncHistoryWithStore(hashHistory, store)
 
 /** 
 history.listen(location => {
@@ -28,9 +28,9 @@ history.listen(location => {
 
 });
 */
-render(
+/*render(
     <Provider store={store}>
         <Router history={history} routes={Routers(store)} />
     </Provider>,
     document.getElementById('root')
-)
+)*/
